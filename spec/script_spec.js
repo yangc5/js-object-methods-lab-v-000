@@ -37,7 +37,7 @@ describe('#doCharity', function() {
 
   it('returns "I like the help people."', function() {
     var lyndonJohnson = new President("Lyndon B Johnson", "Democrat", "1963-1969", "Texas");
-    expect(lyndonJohnson.doCharity()).toEqual("I like the help people.");
+    expect(lyndonJohnson.doCharity()).toEqual("I like to help people.");
   });
 });
 
